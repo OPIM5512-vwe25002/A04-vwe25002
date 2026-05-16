@@ -25,7 +25,7 @@ The accuracy of the two models was similar at 84% for the Random Forest Classifi
 
 I ran permutation importance for both models to find the most importance features for each. The two models had four of the top 5 most important features the same (Applicant Income, Coapplicant Income, Credit History, and Loan Amount). The Random Forest Classifier had Property Area Semiurban as the fifth most important feature, and the ADABoost Classifier had Gender_Male. 
 
-Below are some observations I had on the plots related to the Random Forest Classifier:
+Below are some observations I had on the plots related to the Random Forest Classifier:/
 	1. I was not surprised to see that the top five most important features were very similar but not the same between my models. If the features do hold a strong signal, they should emerge regardless of the model. However, some features will present differently because the models follow different processes and prioritize different things.
 
 	2. I see that the most important feature by far is Credit History because it has the highest median on the feature importance plot. The x-axis on the feature importance plot represents the impact to the model's accuracy when values of the feature are shuffled (holding all other features constant). The y-axis is all of the model's features. The median value for feature importance for Credit History is ~0.14, which means that the model's accuracy dropped 14 percentage points for the median shuffle.
