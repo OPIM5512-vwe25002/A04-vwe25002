@@ -1,0 +1,15 @@
+scikit-learn==1.8.0
+pandas==3.0.3
+numpy==2.4.4
+matplotlib==3.10.9
+imbalanced-learn==0.14.1
+pycebox==0.0.1
+TPOT==1.1.0
+joblib==1.5.3
+scipy==1.17.1
+xgboost==3.2.0
+lightgbm==4.6.0
+tqdm==4.67.3
+stopit==1.1.2
+update-checker==0.18.0
+colorama==0.4.6
